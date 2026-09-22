@@ -5,69 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="383063e0-12c5-464b-9b61-ab5a380a4c64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tn.formation.CategorieProduitControllerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/tn.formation.CategorieProduitControllerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tn/formation/CategorieProduitControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/formation/controllers/ProduitRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/formation/controllers/ProduitRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/FormationApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/FormationApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/controllers/CategorieProduitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/controllers/CategorieProduitController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/controllers/FactureRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/controllers/FactureRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/controllers/OperateurController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/controllers/OperateurController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/controllers/ProduitRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/controllers/ProduitRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/controllers/ReglementRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/controllers/ReglementRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/controllers/SecteurActiviteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/controllers/SecteurActiviteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/controllers/StockRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/controllers/StockRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/entities/CategorieFournisseur.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/entities/CategorieFournisseur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/entities/CategorieProduit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/entities/CategorieProduit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/entities/DetailFacture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/entities/DetailFacture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/entities/DetailFournisseur.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/entities/DetailFournisseur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/entities/Facture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/entities/Facture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/entities/Fournisseur.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/entities/Fournisseur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/entities/Operateur.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/entities/Operateur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/entities/Produit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/entities/Produit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/entities/Reglement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/entities/Reglement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/entities/SecteurActivite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/entities/SecteurActivite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/entities/Stock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/entities/Stock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/repositories/CategorieProduitRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/repositories/CategorieProduitRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/repositories/DetailFactureRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/repositories/DetailFactureRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/repositories/DetailFournisseurRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/repositories/DetailFournisseurRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/repositories/FactureRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/repositories/FactureRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/repositories/FournisseurRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/repositories/FournisseurRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/repositories/OperateurRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/repositories/OperateurRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/repositories/ProduitRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/repositories/ProduitRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/repositories/ReglementRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/repositories/ReglementRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/repositories/SecteurActiviteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/repositories/SecteurActiviteRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/repositories/StockRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/repositories/StockRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/services/CategorieProduitServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/services/CategorieProduitServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/services/FactureServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/services/FactureServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/services/ICategorieProduitService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/services/ICategorieProduitService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/services/IFactureService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/services/IFactureService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/services/IFournisseurService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/services/IFournisseurService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/services/IOperateurService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/services/IOperateurService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/services/IProduitService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/services/IProduitService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/services/IReglementService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/services/IReglementService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/services/ISecteurActiviteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/services/ISecteurActiviteService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/services/IStockService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/services/IStockService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/services/OperateurServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/services/OperateurServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/services/ProduitServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/services/ProduitServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/services/ReglementServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/services/ReglementServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/services/SecteurActiviteServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/services/SecteurActiviteServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/formation/services/StockServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/formation/services/StockServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/formation-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/formation-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/formation-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/formation-1.0.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tn/formation/CategorieProduitControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tn/formation/CategorieProduitControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/formation-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/formation-1.0.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,6 +44,10 @@
     &quot;accountId&quot;: &quot;b10492d1-92f2-42b6-aa67-5443e9820f5f&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -94,9 +58,15 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;JUnit.All in formation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CategorieProduitControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.controllers in formation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.tn.formation.controllers in formation.executor&quot;: &quot;Run&quot;,
     &quot;Maven.formation [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.formation [compile].executor&quot;: &quot;Run&quot;,
     &quot;Maven.formation [install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.formation [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.formation [test].executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
@@ -121,7 +91,60 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HSSIN1\Desktop\DevOps\FormationDevops\src" />
+      <recent name="C:\Users\HSSIN1\Desktop\DevOps\FormationDevops\test\java\tn\formation\tn\controllers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CategorieProduitControllerTest">
+    <configuration name="All in formation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="formation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategorieProduitControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="formation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tn.formation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tn.formation" />
+      <option name="MAIN_CLASS_NAME" value="tn.formation.CategorieProduitControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="controllers in formation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="formation" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/tn/formation/controllers" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tn.formation.controllers in formation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="formation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tn.formation.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tn.formation.controllers" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FormationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="formation" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tn.formation.FormationApplication" />
@@ -129,6 +152,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CategorieProduitControllerTest" />
+        <item itemvalue="JUnit.controllers in formation" />
+        <item itemvalue="JUnit.tn.formation.controllers in formation" />
+        <item itemvalue="JUnit.All in formation" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -147,7 +178,9 @@
       <updated>1789636672157</updated>
       <workItem from="1789636673435" duration="2536000" />
       <workItem from="1789732945173" duration="2142000" />
-      <workItem from="1789736143797" duration="1212000" />
+      <workItem from="1789736143797" duration="3163000" />
+      <workItem from="1789808615154" duration="6904000" />
+      <workItem from="1790100594196" duration="774000" />
     </task>
     <servers />
   </component>
