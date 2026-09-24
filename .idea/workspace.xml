@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="383063e0-12c5-464b-9b61-ab5a380a4c64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tn.formation.CategorieProduitControllerTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/tn.formation.CategorieProduitControllerTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tn/formation/CategorieProduitControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tn/formation/CategorieProduitControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tn/formation/CategorieProduitControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/formation-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/formation-1.0.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -58,6 +50,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.All in formation.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.CategorieProduitControllerTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.controllers in formation.executor&quot;: &quot;Run&quot;,
@@ -97,7 +90,7 @@
       <recent name="C:\Users\HSSIN1\Desktop\DevOps\FormationDevops\test\java\tn\formation\tn\controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CategorieProduitControllerTest">
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="All in formation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="formation" />
       <option name="PACKAGE_NAME" value="" />
@@ -152,8 +145,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="JUnit.CategorieProduitControllerTest" />
         <item itemvalue="JUnit.controllers in formation" />
         <item itemvalue="JUnit.tn.formation.controllers in formation" />
@@ -180,7 +182,8 @@
       <workItem from="1789732945173" duration="2142000" />
       <workItem from="1789736143797" duration="3163000" />
       <workItem from="1789808615154" duration="6904000" />
-      <workItem from="1790100594196" duration="774000" />
+      <workItem from="1790100594196" duration="4956000" />
+      <workItem from="1790273529716" duration="1599000" />
     </task>
     <servers />
   </component>
