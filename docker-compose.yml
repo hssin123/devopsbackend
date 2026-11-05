@@ -12,7 +12,7 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U formation -d formation_db"]
+      test: ["CMD-SHELL", "pg_isready -U postgres -d devopsdb"]
       interval: 5s
       timeout: 5s
       retries: 10
@@ -25,7 +25,7 @@ services:
       postgres:
         condition: service_healthy
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://localhost:5432/devopsdb
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/devopsdb
       SPRING_DATASOURCE_USERNAME: postgres
       SPRING_DATASOURCE_PASSWORD: root
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
